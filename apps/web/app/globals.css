@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #070a0e;
+  --surface: #0d1118;
+  --surface-elevated: #121922;
+  --border: rgba(63, 63, 70, 0.45);
+  --muted: #a1a1aa;
+  background: var(--bg);
+  color: #e4e4e7;
+}
+
+body {
+  min-height: 100vh;
+}
+
+nextjs-portal {
+  left: unset !important;
+  top: unset !important;
+}

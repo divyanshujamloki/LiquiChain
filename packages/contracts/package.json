@@ -1,0 +1,11 @@
+{
+  "name": "@nfs/contracts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "forge:build": "forge build",
+    "forge:test": "forge test",
+    "lint": "forge fmt --check",
+    "postinstall": "node ./scripts/ensure-forge-std.mjs"
+  }
+}

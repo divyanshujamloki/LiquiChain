@@ -1,0 +1,9 @@
+{
+  "name": "@nfs/render-bundle",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "echo render-bundle: no build step",
+    "lint": "echo ok"
+  }
+}

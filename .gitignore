@@ -1,0 +1,17 @@
+node_modules
+.turbo
+dist
+.next
+out
+.env
+.env.local
+*.log
+*.tsbuildinfo
+.DS_Store
+packages/contracts/cache
+packages/contracts/out
+packages/contracts/broadcast
+apps/web/.next
+apps/web/out
+apps/web/test-results
+apps/web/playwright-report

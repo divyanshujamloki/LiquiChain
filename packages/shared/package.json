@@ -1,0 +1,29 @@
+{
+  "name": "@nfs/shared",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./addresses": {
+      "types": "./dist/addresses.d.ts",
+      "import": "./dist/addresses.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "viem": "^2.21.54"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
